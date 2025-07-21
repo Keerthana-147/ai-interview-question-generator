@@ -8,7 +8,7 @@ import os
 # Initialize OpenAI client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",  # or your OpenRouter endpoint
-    api_key="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",
+    api_key="YOUR_API_KEY",
     timeout=60  # timeout in seconds (default is 10s)
 )
 
